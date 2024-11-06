@@ -1,0 +1,56 @@
+.modalWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.input {
+  height: 50px;
+  width: 300px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #000;
+  padding: 0 0 0 15px;
+  outline: none;
+
+  &::placeholder {
+    color: #000;
+  }
+}
+
+.button {
+  outline: none;
+  background: none;
+  color: #000;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
